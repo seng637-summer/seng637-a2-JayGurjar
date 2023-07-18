@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DataUtilitiesTest" project="JFreeChart" tests="19" started="19" failures="0" errors="8" ignored="0">
+  <testsuite name="org.jfree.data.test.DataUtilitiesTest" time="0.066">
+    <testcase name="createNumberArray2DTestSmall" classname="org.jfree.data.test.DataUtilitiesTest" time="0.001"/>
+    <testcase name="createNumberArrayTestBoundary" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateColumnTotalnegBoundary" classname="org.jfree.data.test.DataUtilitiesTest" time="0.029">
+      <error>java.lang.NoClassDefFoundError: org/hamcrest/collection/IsArray&#13;
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)&#13;
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)&#13;
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)&#13;
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)&#13;
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)&#13;
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)&#13;
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)&#13;
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)&#13;
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)&#13;
+	at org.jmock.internal.InvocationExpectationBuilder.createExpectationFrom(InvocationExpectationBuilder.java:89)&#13;
+	at org.jmock.internal.InvocationToExpectationTranslator.invoke(InvocationToExpectationTranslator.java:19)&#13;
+	at org.jmock.internal.FakeObjectMethods.invoke(FakeObjectMethods.java:38)&#13;
+	at org.jmock.lib.JavaReflectionImposteriser$1.invoke(JavaReflectionImposteriser.java:33)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy9.getRowCount(Unknown Source)&#13;
+	at org.jfree.data.test.DataUtilitiesTest$1.&lt;init&gt;(DataUtilitiesTest.java:144)&#13;
+	at org.jfree.data.test.DataUtilitiesTest.calculateColumnTotalnegBoundary(DataUtilitiesTest.java:142)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: java.lang.ClassNotFoundException: org.hamcrest.collection.IsArray&#13;
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)&#13;
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)&#13;
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)&#13;
+	... 43 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="EqualCheckTest" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="cloneTestEmpty" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="cloneTest" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="createNumberArray2DTestNull" classname="org.jfree.data.test.DataUtilitiesTest" time="0.001"/>
+    <testcase name="calculateRowTotalInvalidIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.004">
+      <error>java.lang.Exception: Unexpected exception, expected&lt;java.lang.IllegalArgumentException&gt; but was&lt;java.lang.NoClassDefFoundError&gt;&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: java.lang.NoClassDefFoundError: org/hamcrest/collection/IsArray&#13;
+	at org.jmock.internal.InvocationExpectationBuilder.createExpectationFrom(InvocationExpectationBuilder.java:89)&#13;
+	at org.jmock.internal.InvocationToExpectationTranslator.invoke(InvocationToExpectationTranslator.java:19)&#13;
+	at org.jmock.internal.FakeObjectMethods.invoke(FakeObjectMethods.java:38)&#13;
+	at org.jmock.lib.JavaReflectionImposteriser$1.invoke(JavaReflectionImposteriser.java:33)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy9.getColumnCount(Unknown Source)&#13;
+	at org.jfree.data.test.DataUtilitiesTest$7.&lt;init&gt;(DataUtilitiesTest.java:295)&#13;
+	at org.jfree.data.test.DataUtilitiesTest.calculateRowTotalInvalidIndex(DataUtilitiesTest.java:293)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)&#13;
+	... 19 more&#13;
+Caused by: java.lang.ClassNotFoundException: org.hamcrest.collection.IsArray&#13;
+	... 35 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="calculateRowTotalposBoundary" classname="org.jfree.data.test.DataUtilitiesTest" time="0.004">
+      <error>java.lang.NoClassDefFoundError: org/hamcrest/collection/IsArray&#13;
+	at org.jmock.internal.InvocationExpectationBuilder.createExpectationFrom(InvocationExpectationBuilder.java:89)&#13;
+	at org.jmock.internal.InvocationToExpectationTranslator.invoke(InvocationToExpectationTranslator.java:19)&#13;
+	at org.jmock.internal.FakeObjectMethods.invoke(FakeObjectMethods.java:38)&#13;
+	at org.jmock.lib.JavaReflectionImposteriser$1.invoke(JavaReflectionImposteriser.java:33)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy9.getColumnCount(Unknown Source)&#13;
+	at org.jfree.data.test.DataUtilitiesTest$6.&lt;init&gt;(DataUtilitiesTest.java:268)&#13;
+	at org.jfree.data.test.DataUtilitiesTest.calculateRowTotalposBoundary(DataUtilitiesTest.java:266)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: java.lang.ClassNotFoundException: org.hamcrest.collection.IsArray&#13;
+	... 34 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="calculateColumnTotalBlank" classname="org.jfree.data.test.DataUtilitiesTest" time="0.005">
+      <error>java.lang.Exception: Unexpected exception, expected&lt;java.lang.IllegalArgumentException&gt; but was&lt;java.lang.NoClassDefFoundError&gt;&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: java.lang.NoClassDefFoundError: org/hamcrest/collection/IsArray&#13;
+	at org.jmock.internal.InvocationExpectationBuilder.createExpectationFrom(InvocationExpectationBuilder.java:89)&#13;
+	at org.jmock.internal.InvocationToExpectationTranslator.invoke(InvocationToExpectationTranslator.java:19)&#13;
+	at org.jmock.internal.FakeObjectMethods.invoke(FakeObjectMethods.java:38)&#13;
+	at org.jmock.lib.JavaReflectionImposteriser$1.invoke(JavaReflectionImposteriser.java:33)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy9.getRowCount(Unknown Source)&#13;
+	at org.jfree.data.test.DataUtilitiesTest$4.&lt;init&gt;(DataUtilitiesTest.java:224)&#13;
+	at org.jfree.data.test.DataUtilitiesTest.calculateColumnTotalBlank(DataUtilitiesTest.java:222)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)&#13;
+	... 19 more&#13;
+Caused by: java.lang.ClassNotFoundException: org.hamcrest.collection.IsArray&#13;
+	... 35 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="createNumberArray2DTestBoundary" classname="org.jfree.data.test.DataUtilitiesTest" time="0.001"/>
+    <testcase name="cloneTestNull" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateColumnTotalposBoundary" classname="org.jfree.data.test.DataUtilitiesTest" time="0.004">
+      <error>java.lang.NoClassDefFoundError: org/hamcrest/collection/IsArray&#13;
+	at org.jmock.internal.InvocationExpectationBuilder.createExpectationFrom(InvocationExpectationBuilder.java:89)&#13;
+	at org.jmock.internal.InvocationToExpectationTranslator.invoke(InvocationToExpectationTranslator.java:19)&#13;
+	at org.jmock.internal.FakeObjectMethods.invoke(FakeObjectMethods.java:38)&#13;
+	at org.jmock.lib.JavaReflectionImposteriser$1.invoke(JavaReflectionImposteriser.java:33)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy9.getRowCount(Unknown Source)&#13;
+	at org.jfree.data.test.DataUtilitiesTest$2.&lt;init&gt;(DataUtilitiesTest.java:173)&#13;
+	at org.jfree.data.test.DataUtilitiesTest.calculateColumnTotalposBoundary(DataUtilitiesTest.java:171)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: java.lang.ClassNotFoundException: org.hamcrest.collection.IsArray&#13;
+	... 34 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="createNumberArray2DTest" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateRowTotalnegBoundary" classname="org.jfree.data.test.DataUtilitiesTest" time="0.004">
+      <error>java.lang.NoClassDefFoundError: org/hamcrest/collection/IsArray&#13;
+	at org.jmock.internal.InvocationExpectationBuilder.createExpectationFrom(InvocationExpectationBuilder.java:89)&#13;
+	at org.jmock.internal.InvocationToExpectationTranslator.invoke(InvocationToExpectationTranslator.java:19)&#13;
+	at org.jmock.internal.FakeObjectMethods.invoke(FakeObjectMethods.java:38)&#13;
+	at org.jmock.lib.JavaReflectionImposteriser$1.invoke(JavaReflectionImposteriser.java:33)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy9.getColumnCount(Unknown Source)&#13;
+	at org.jfree.data.test.DataUtilitiesTest$5.&lt;init&gt;(DataUtilitiesTest.java:242)&#13;
+	at org.jfree.data.test.DataUtilitiesTest.calculateRowTotalnegBoundary(DataUtilitiesTest.java:240)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: java.lang.ClassNotFoundException: org.hamcrest.collection.IsArray&#13;
+	... 34 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="createNumberArrayWrongType" classname="org.jfree.data.test.DataUtilitiesTest" time="0.001"/>
+    <testcase name="calculateColumnTotalInvalidIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.004">
+      <error>java.lang.Exception: Unexpected exception, expected&lt;java.lang.IllegalArgumentException&gt; but was&lt;java.lang.NoClassDefFoundError&gt;&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: java.lang.NoClassDefFoundError: org/hamcrest/collection/IsArray&#13;
+	at org.jmock.internal.InvocationExpectationBuilder.createExpectationFrom(InvocationExpectationBuilder.java:89)&#13;
+	at org.jmock.internal.InvocationToExpectationTranslator.invoke(InvocationToExpectationTranslator.java:19)&#13;
+	at org.jmock.internal.FakeObjectMethods.invoke(FakeObjectMethods.java:38)&#13;
+	at org.jmock.lib.JavaReflectionImposteriser$1.invoke(JavaReflectionImposteriser.java:33)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy9.getRowCount(Unknown Source)&#13;
+	at org.jfree.data.test.DataUtilitiesTest$3.&lt;init&gt;(DataUtilitiesTest.java:201)&#13;
+	at org.jfree.data.test.DataUtilitiesTest.calculateColumnTotalInvalidIndex(DataUtilitiesTest.java:199)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)&#13;
+	... 19 more&#13;
+Caused by: java.lang.ClassNotFoundException: org.hamcrest.collection.IsArray&#13;
+	... 35 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="EqualCheckNotPopulatedTest" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateRowTotalBlank" classname="org.jfree.data.test.DataUtilitiesTest" time="0.004">
+      <error>java.lang.Exception: Unexpected exception, expected&lt;java.lang.IllegalArgumentException&gt; but was&lt;java.lang.NoClassDefFoundError&gt;&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: java.lang.NoClassDefFoundError: org/hamcrest/collection/IsArray&#13;
+	at org.jmock.internal.InvocationExpectationBuilder.createExpectationFrom(InvocationExpectationBuilder.java:89)&#13;
+	at org.jmock.internal.InvocationToExpectationTranslator.invoke(InvocationToExpectationTranslator.java:19)&#13;
+	at org.jmock.internal.FakeObjectMethods.invoke(FakeObjectMethods.java:38)&#13;
+	at org.jmock.lib.JavaReflectionImposteriser$1.invoke(JavaReflectionImposteriser.java:33)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy9.getColumnCount(Unknown Source)&#13;
+	at org.jfree.data.test.DataUtilitiesTest$8.&lt;init&gt;(DataUtilitiesTest.java:316)&#13;
+	at org.jfree.data.test.DataUtilitiesTest.calculateRowTotalBlank(DataUtilitiesTest.java:314)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)&#13;
+	... 19 more&#13;
+Caused by: java.lang.ClassNotFoundException: org.hamcrest.collection.IsArray&#13;
+	... 35 more&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
